@@ -1,0 +1,81 @@
+src/com/jimweller/cpuscheduler/SchedulingAlgorithm.java:15: warning: no @param for p
+    public void addJob(Process p);
+                ^
+src/com/jimweller/cpuscheduler/SchedulingAlgorithm.java:18: warning: no @param for p
+    public boolean removeJob(Process p);
+                   ^
+src/com/jimweller/cpuscheduler/SchedulingAlgorithm.java:18: warning: no @return
+    public boolean removeJob(Process p);
+                   ^
+src/com/jimweller/cpuscheduler/SchedulingAlgorithm.java:21: warning: no @param for currentTime
+    public Process getNextJob(long currentTime);
+                   ^
+src/com/jimweller/cpuscheduler/SchedulingAlgorithm.java:21: warning: no @return
+    public Process getNextJob(long currentTime);
+                   ^
+src/com/jimweller/cpuscheduler/SchedulingAlgorithm.java:24: warning: no @return
+    public boolean isJobFinished();
+                   ^
+src/com/jimweller/cpuscheduler/SchedulingAlgorithm.java:27: warning: no @return
+    public String getName();
+                  ^
+src/com/jimweller/cpuscheduler/SchedulingAlgorithm.java:31: warning: no @param for otherAlg
+    public void transferJobsTo(SchedulingAlgorithm otherAlg);
+                ^
+src/com/jimweller/cpuscheduler/BetterFileFilter.java:171: warning: no @param for f
+     public String getExtension(File f) {
+                   ^
+src/com/jimweller/cpuscheduler/BetterFileFilter.java:171: warning: no @return
+     public String getExtension(File f) {
+                   ^
+src/com/jimweller/cpuscheduler/BetterFileFilter.java:194: warning: no @param for extension
+    public void addExtension(String extension) {
+                ^
+src/com/jimweller/cpuscheduler/BetterFileFilter.java:243: warning: no @param for description
+    public void setDescription(String description) {
+                ^
+src/com/jimweller/cpuscheduler/BetterFileFilter.java:259: warning: no @param for b
+    public void setExtensionListInDescription(boolean b) {
+                ^
+src/com/jimweller/cpuscheduler/BetterFileFilter.java:275: warning: no @return
+    public boolean isExtensionListInDescription() {
+                   ^
+src/com/jimweller/cpuscheduler/BetterFileFilter.java:96: warning: no @param for extension
+    public BetterFileFilter(String extension) {
+           ^
+src/com/jimweller/cpuscheduler/BetterFileFilter.java:122: warning: no @param for filters
+    public BetterFileFilter(String[] filters) {
+           ^
+src/com/jimweller/cpuscheduler/BetterFileFilter.java:134: warning: no @param for filters
+    public BetterFileFilter(String[] filters, String description) {
+           ^
+src/com/jimweller/cpuscheduler/BetterFileFilter.java:134: warning: no @param for description
+    public BetterFileFilter(String[] filters, String description) {
+           ^
+src/com/jimweller/cpuscheduler/BetterFileFilter.java:109: warning: no @param for extension
+    public BetterFileFilter(String extension, String description) {
+           ^
+src/com/jimweller/cpuscheduler/BetterFileFilter.java:109: warning: no @param for description
+    public BetterFileFilter(String extension, String description) {
+           ^
+src/com/jimweller/cpuscheduler/CPUScheduler.java:342: warning: no @param for jobs
+	public void LoadJobQueue(Vector<Process> jobs) {
+	            ^
+src/com/jimweller/cpuscheduler/CPUScheduler.java:414: warning: no @param for pw
+	public void printCSV(PrintWriter pw) {
+	            ^
+src/com/jimweller/cpuscheduler/CPUScheduler.java:538: warning: no @return
+	public Process getActiveProcess() {
+	               ^
+src/com/jimweller/cpuscheduler/CPUScheduler.java:114: warning: no @param for ap
+	CPUScheduler(Vector<Process> ap) {
+	^
+src/com/jimweller/cpuscheduler/Process.java:117: warning: no @param for timeNow
+    public  synchronized void executing(long timeNow){
+                              ^
+src/com/jimweller/cpuscheduler/Process.java:145: warning: no @param for timeNow
+    public synchronized void waiting(long timeNow){
+                             ^
+src/com/jimweller/cpuscheduler/Process.java:197: warning: no @param for pw
+    public void printCSV(PrintWriter pw){
+                ^
